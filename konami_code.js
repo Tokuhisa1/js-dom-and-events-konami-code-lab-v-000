@@ -4,7 +4,6 @@ function init() {
   // Write your JavaScript code inside the init() function
   // Keep track of index outside of the event handler.
   let index = 0;
-
   // This is the function that would be invoked by the event listener.
   function onKeyDownHandler(e) {
     // Note that we're calling parseInt on the key value. This is because the
